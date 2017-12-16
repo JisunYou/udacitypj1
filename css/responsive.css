@@ -1,0 +1,14 @@
+@media screen and (max-width:480px) {
+  h1 {font-size: 2.5em;}
+  .icon {width: 30%;}, .title {width: 70%;}
+  .image1, .image2, .image3 {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}

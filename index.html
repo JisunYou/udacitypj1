@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oxygen|PT+Sans">
+    <script src="https://use.fontawesome.com/4cf7e18afc.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+ </head>
+
+  <body>
+    <header>
+      <div class="container">
+      <div class="icon"><i class="fa fa-laptop fa-5x" aria-hidden="true"></i></div>
+      <div class="title"><h1>Jisun You</h1><h4>Front-end ninja</h4></div>
+      </div>
+    </header>
+    <section class="container">
+      <div class="main">
+        <picture>
+          <source media="(max-width: 480px)" srcset="images/meeting-920_small_2x.jpg 2x, images/meeting-480_small_1x.jpg"/>
+          <img src="images/meeting-1000_1x.jpg" srcset="images/meeting-2000_2x.jpg 2x, images/meeting-1000_1x.jpg" alt="meeting photo">
+        </picture>
+      </div>
+      <div class="work"><h2>Featured work</h2></div>
+      <div class="image1">
+        <a href="#" data-toggle="modal" data-target="#myProject1">
+        <img src="images/coffee-480_small_1x.jpg" srcset="images/coffee-920_small_2x.jpg 2x, images/coffee-480_small_1x.jpg" alt="coffee photo"></a>
+        <div class="subtitle">coffee</div>
+      </div>
+      <div class="image2">
+        <a href="#" data-toggle="modal" data-target="#myProject2">
+        <img src="images/flowers-480_small_1x.jpg" srcset="images/flowers-920_small_2x.jpg 2x, images/flowers-480_small_1x.jpg" alt="flowers photo"></a>
+        <div class="subtitle">flowers</div>
+      </div>
+      <div class="image3">
+        <a href="#" data-toggle="modal" data-target="#myProject3">
+        <img src="images/books-480_small_1x.jpg" srcset="images/books-920_small_2x.jpg 2x, images/books-480_small_1x.jpg" alt="books photo"></a>
+        <div class="subtitle">books</div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <a href="http://www.facebook.com" class="zocial-facebook"></a>
+        <a href="http://www.twitter.com" class="zocial-twitter"></a>
+        <a href="http://instagram.com" class="zocial-instagram"></a>
+      </div>
+    </footer>
+
+    <!-- Modal1 -->
+    <div id="myProject1" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Project 1: Coffee</h4>
+          </div>
+          <div class="modal-body">
+            <img src="images/coffee-1600.jpg" alt="coffee photo">
+            <p>[Image credit] http://www.treasurevalleycoffee.net/contact-us/</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div id="myProject2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Project 2: Flowers</h4>
+          </div>
+          <div class="modal-body">
+            <img src="images/flowers-1600.jpg" alt="flowers photo">
+            <p>[Image credit] http://www.planwallpaper.com/images-flowers</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div id="myProject3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Project 3: Books</h4>
+          </div>
+          <div class="modal-body">
+            <img src="images/books-1600.jpg" alt="books photo">
+            <p>[Image credit] http://www.talkandroid.com/guides/best-apps/best-apps-for-reading-books/</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </body>
+</html>
